@@ -6,4 +6,4 @@ In general, our software is designed for lightweight, cloud-based, server-side, 
 
 Wherever feasible, we seek to make our software available under the Creative Commons and similar licenses.
 
-&#127137;
+# &#127137;

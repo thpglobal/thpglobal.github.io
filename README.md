@@ -5,3 +5,5 @@ The Hunger Project, a global strategic organization committed to the sustainable
 In general, our software is designed for lightweight, cloud-based, server-side, mobile-friendly database services to support the relatively weak bandwidth and devices in many of the most impoverished communities of our world. They work even better in urban and developed world environments.
 
 Wherever feasible, we seek to make our software available under the Creative Commons and similar licenses.
+
+&#127137;

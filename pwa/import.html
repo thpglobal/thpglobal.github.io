@@ -2,7 +2,7 @@
 <!-- THP PWA -->
 <html lang=en>
 <head>
-    <title>PWA Test</title>
+    <title>PWA Import</title>
 	<link rel="manifest" href="./manifest.json">
 	<link rel="icon" type="image/png" href="./logo150.png"/>
 	<link rel="apple-touch-icon" href="./logo512.png">
@@ -18,11 +18,12 @@
 	<script>
 	cookie=setup();
 	</script>
-	<h1>Upload Database</h1>
-	<p>You may only upload JSON files in Dexie format.</p>
+	<h1>Import Database</h1>
+	<p>You may only upload Excel files generated from this system.</p>
 	<form action=import enctype='multipart/form-data' method='post'> 
 	<input name='userfile' type='file'>
 	<input type=submit value='Upload Dexie JSON'>
 	</form>
+	
 </body>
 </html>

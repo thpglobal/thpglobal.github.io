@@ -1,7 +1,7 @@
 // This includes all functions called by pages independent of language
 
 // All the initialization for every page
-const version = 'v2';
+const version = 'v3';
 var s=""; // this string compiles the output for a given main content div
 function setup() {
   const maxpage = 33; // the highest numbered page supported by en and fr so far

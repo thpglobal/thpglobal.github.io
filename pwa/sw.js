@@ -1,4 +1,4 @@
-cacheName='pwa2';
+cacheName='pwa3';
 const URLS = [
   './',
   './functions.js',
@@ -7,6 +7,8 @@ const URLS = [
   "./logo512.png",
   "./manifest.json",
   './style.css',
+  ',/dexie.js',
+  ',/dexie-export-import.js',
   './sw.js'
 ];
 

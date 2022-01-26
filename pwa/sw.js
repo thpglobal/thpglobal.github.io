@@ -1,4 +1,4 @@
-cacheName='pwa1';
+cacheName='pwa2';
 const URLS = [
   './',
   './functions.js',

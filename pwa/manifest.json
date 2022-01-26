@@ -2,7 +2,7 @@
     "name": "THP PWA",
     "short_name": "PWA",
     "start_url": "./index.html",
-    "scope": "/",
+    "scope": "./",
     "display": "standalone",
     "background_color": "white",
     "description": "Test PWA",

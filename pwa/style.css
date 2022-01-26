@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+body {padding:1em;font-family:sans-serif;
+	max-width: 700px;
+	margin: 0 auto;
+}
+h1 {text-align:center;}
+a {text-decoration:none;}
+.tall {font-size:24px;}
+.wide {display:block;width:100%;padding:5px;border:3px solid navy; margin:5px;}
+a.wide { background-color:navy; color:white;}
+nav {display:flex; justify-content: space-between; width:100%; background-color:navy; color:white; font-weight:bold;}
+nav a {color:white; padding:10px; }
+nav a:hover {color:yellow;}
+table, th, td {border: 1px solid navy; border-collapse: collapse; padding:5px}

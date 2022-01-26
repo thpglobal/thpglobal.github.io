@@ -16,8 +16,13 @@
 <body>
 	<nav id="navbar"></nav>
 	<script>
-	cookie=setup(); // read cookies and then redirect per language
+	cookie=setup();
 	</script>
-	<h1>Hello World</h1>
+	<h1>Upload Database</h1>
+	<p>You may only upload Excel files generated from this system.</p>
+	<form action=import enctype='multipart/form-data' method='post'> 
+	<input name='userfile' type='file'>
+	<input type=submit value='Upload Dexie JSON'>
+	</form>
 </body>
 </html>

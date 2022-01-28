@@ -12,6 +12,8 @@
 	<meta name="theme-color" content="navy">
 	<link rel="stylesheet" href="./style.css">
 	<script type='text/javascript' src=./functions.js></script>
+	<script type='text/javascript' src=./dexie.js></script>
+	<script type='text/javascript' src=./dexie-export-import.js></script>
 </head>
 <body>
 	<nav id="navbar"></nav>
@@ -20,9 +22,28 @@
 	</script>
 	<h1>Upload Database</h1>
 	<p>You may only upload JSON files in Dexie format.</p>
-	<form action=import enctype='multipart/form-data' method='post'> 
-	<input name='userfile' type='file'>
-	<input type=submit value='Upload Dexie JSON'>
-	</form>
+    <input type="file" accept="application/json" onchange="readFile(this)"><br>
+	<div id=main></div>
+
+<script>
+const main= document.getElementById("main");
+
+    function readFile(input) {
+        let file = input.files[0];
+        let reader = new FileReader();
+		reader.readAsText(file);
+		reader.onload = function() {
+			let blob=reader.result;
+			const db=importDB(blob); 
+		  main.innerHTML=db.unions.count();
+          };
+        
+          reader.onerror = function() {
+            main.innerHTML=reader.error;
+          };
+        
+        }
+        </script>
+
 </body>
 </html>

@@ -12,6 +12,8 @@
 	<meta name="theme-color" content="navy">
 	<link rel="stylesheet" href="./style.css">
 	<script type='text/javascript' src=./functions.js></script>
+	<script type='text/javascript' src=./dexie.js></script>
+	<script type='text/javascript' src=./dexie-export-import.js></script>
 </head>
 <body>
 	<nav id="navbar"></nav>
@@ -19,11 +21,6 @@
 	cookie=setup();
 	</script>
 	<h1>Import Database</h1>
-	<p>You may only upload Excel files generated from this system.</p>
-	<form action=import enctype='multipart/form-data' method='post'> 
-	<input name='userfile' type='file'>
-	<input type=submit value='Upload Dexie JSON'>
-	</form>
-	
+    
 </body>
 </html>

@@ -8,24 +8,20 @@
 	<meta name = "Description" content = "Documentation for THP Code Base by John Coonrod.">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Unna|Source+Sans+Pro">
     <style>
-        body {padding:1em; background-color:white;
-        	max-width: 1000px; margin: 0 auto;
-            font-family:"Source Sans Pro"; font-size:1.4rem;}
-        h1, h2 {font-family: Unna;color: #0000aa; font-size:3rem; font-weight:normal;}
-        header {display:flex;}
-        nav {align-self:center;}
-	    a {text-decoration:none;}
+body {padding:1em; background-color:white; max-width: 1000px; margin: 0 auto; font-family:"Source Sans Pro"; lineheight:1.6em; color:darkgray;}
+h1, h2 {font-family: Unna;color: #0000aa; font-size:3rem; font-weight:normal;}
+header {display:flex;}
+nav {align-self:center;}
+a {text-decoration:none;}
 
 nav ul {
   background: white;
   list-style: none;
-  color: black;
   margin: 0;
   padding-left: 0;
 }
 
 nav ul li {
-  color: #black;
   background: white;
   display: block;
   float: left;
@@ -35,20 +31,11 @@ nav ul li {
   transition-duration: 0.5s;
 }
   
-nav ul li a {
-  color: black; font-size:1rem;
-}
+nav ul li a { color: darkgrey;}
 
-nav ul li:hover {
-  background: lightgray;
-  cursor: pointer;
-}
+nav ul li:hover {background: lightgray;cursor: pointer;}
 
-nav ul li ul {
-  background: white;
-  visibility: hidden;
-  border: solid 1px black;
-  opacity: 0;
+nav ul li ul {background: white; visibility: hidden; border: solid 1px darkgrey; opacity: 0;
   min-width: 5rem;
   position: absolute;
   transition: all 0.5s ease;

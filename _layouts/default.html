@@ -7,67 +7,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name = "Description" content = "Documentation for THP Code Base by John Coonrod.">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Unna|Source+Sans+Pro">
-    <style>
-body {padding:1em; background-color:white; max-width: 1000px; margin: 0 auto; font-family:"Source Sans Pro"; 
-	font-size:1.2rem; color:#222222; }
-h1, h2 {font-family: Unna;color: #0000aa; font-size:3rem; font-weight:normal;}
-header {display:flex;}
-p {font-size:1.25rem; line-height:1.6;
-nav {align-self:center;}
-a {text-decoration:none;}
-nav ul {
-  background: white;
-  list-style: none;
-  color: black;
-  margin: 0;
-  padding-left: 0;
-}
-
-nav ul li {
-  color: #black;
-  background: white;
-  display: block;
-  float: left;
-  padding: 1rem;
-  position: relative;
-  text-decoration: none;
-  transition-duration: 0.5s;
-}
-  
-nav ul li a {
-  color: black;
-}
-
-nav ul li:hover {
-  background: lightgray;
-  cursor: pointer;
-}
-
-nav ul li ul {
-  background: white;
-  visibility: hidden;
-  opacity: 0;
-  min-width: 5rem;
-  position: absolute;
-  transition: all 0.5s ease;
-  margin-top: 1rem;
-  left: 0;
-  display: none;
-  z-index:100
-}
-
-nav ul li:hover > ul,
-nav ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-}
-
-nav ul li ul li {
-  clear: both;
-  width: 100%;
-}
-
+   	<style>
+        body {padding:1em; background-color:white; max-width: 1000px; margin: 0 auto; font-family:"Source Sans Pro";}
+        h1, h2 {font-family: Unna;color: #0000aa; font-size:3rem; font-weight:normal;}
+	p, li {font-size:1.25rem; line-height:1.4;}
+        header {display:flex;}
+        nav {align-self:center;}
+	a {text-decoration:none;}
+	nav ul { background: white; list-style: none; color: black; margin: 0;padding-left: 0;}
+	nav ul li {color: #black;background: white; display: block; float: left; padding: 1rem; position: relative; 
+		text-decoration: none; transition-duration: 0.5s;}
+	nav ul li a { color: black; font-size:1rem;}
+	nav ul li:hover {background: lightgray;cursor: pointer;}
+	nav ul li ul { background: white; visibility: hidden; border: solid 1px black; opacity: 0; min-width: 5rem;
+  		position: absolute; transition: all 0.5s ease; margin-top: 1rem; left: 0; display: none;z-index:100}
+	nav ul li:hover > ul,
+	nav ul li ul:hover { visibility: visible; opacity: 1;display: block;}
+	nav ul li ul li {clear: both; width: 100%;}
     </style>
 </head>
 <body>
